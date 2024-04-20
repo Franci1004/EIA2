@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e7e7;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#shoppingList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#shoppingList li{
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button#editButton, button#addButton {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+}
+
+button#editButton {
+    margin-right: 5px;
+}
+
+.kaufen {
+    background-color: yellowgreen;
+}
+
+.gekauft {
+    background-color: yellow;
+}
+
+.entfernen {
+    background-color: red;
+}

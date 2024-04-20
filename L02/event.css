@@ -1,0 +1,25 @@
+span {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    height: 50px;
+    background-color: pink;
+}
+
+.div0 {
+    background-color: plum;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 25%;
+    left: 0;
+}
+
+.div1 {
+    background-color: lavender;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 25%;
+    right: 0;
+}

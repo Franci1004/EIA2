@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "event.js" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="./event.css">
+</head>
+<body>
+    <h1>Event Exercise</h1>
+    <div class="div0">
+        <button id="0-button">Button</button>
+    </div>
+    <div class="div1"></div>
+    <span></span>
+</body>
+</html>

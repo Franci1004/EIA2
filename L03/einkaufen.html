@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="einkaufen.css" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="einkaufen.css">
+    <title>Einkaufsliste App</title>
+</head>
+<body>
+
+<div id="app">
+    <h1>Einkaufsliste</h1>
+    <ul id="shoppingList">
+        <ul id="shoppingList">
+
+            <li>
+                <span>1 Apfel</span>
+                <span>Kommentar</span>
+                <button class="kaufen" onclick="handleClick(this)">zukaufen</button>
+                <button class="gekauft" onclick="handleClick(this)">gekauft</button>
+                <button class="entfernen" onclick="handleClick(this)">entfernen</button>
+                <span>Datum</span>
+            </li>
+            <li>
+                <span>4 Orangen</span>
+                <span>Kommentar</span>
+                <button class="kaufen" onclick="handleClick(this)">zukaufen</button>
+                <button class="gekauft" onclick="handleClick(this)">gekauft</button>
+                <button class="entfernen" onclick="handleClick(this)">entfernen</button>
+                <span>Datum</span>
+            </li>
+            <li>
+                <span>5 Karotten</span>
+                <span>Kommentar</span>
+                <button class="kaufen" onclick="handleClick(this)">zukaufen</button>
+                <button class="gekauft" onclick="handleClick(this)">gekauft</button>
+                <button class="entfernen" onclick="handleClick(this)">entfernen</button>
+                <span>Datum</span>
+            </li>
+        </ul>
+    </ul>
+    <button id="editButton" onclick="handleButtonClick(this)">Bearbeiten</button>
+    <button id="addButton"onclick="handleButtonClick(this)">Hinzufügen</button>
+</div>
+<script>
+    function handleClick(button) {
+        console.log("Button wurde geklickt und das beschriebene wird ausgeführt", button.innerText);
+    }
+
+    function handleButtonClick(button) {
+        console.log("Button wurde geklickt und das beschriebene wird ausgeführt", button.innerText);
+    }
+</script>
+
+
+</body>
+</html>
+
+/*
+Aufgabe: <L02 Einkaufsapp>
+Name: Franciska Egri
+Matrikel: <275578>
+Datum: <20.04.2024>
+Quellen: <Zusammenarbeit mit Alita Maier>
+*/ 
+//# sourceMappingURL=einkaufen.js.map
